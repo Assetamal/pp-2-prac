@@ -1,1 +1,10 @@
+#1
 print("Hi!")
+#2
+print("Hello!")
+#3
+print("no!")
+#4
+print("yes!")
+#5
+print("Ok")
