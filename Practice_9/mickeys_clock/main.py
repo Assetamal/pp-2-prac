@@ -2,7 +2,7 @@ import datetime
 import pygame
 import os 
 pygame.init()
-w ,h = 1000, 600
+w ,h = 600, 600
 screen = pygame.display.set_mode((w,h))
 pygame.display.set_caption("Mickey's Clock")
 clock = pygame.time.Clock()
@@ -23,7 +23,7 @@ while run:
     now = datetime.datetime.now()
     seconds = now.second
     minutes = now.minute
-    second_angle = -seconds * 6
+    second_angle = -seconds * 12
     minute_angle = -minutes * 6 
     rotated_right = pygame.transform.rotate(right_hand,minute_angle)
     rotated_left  = pygame.transform.rotate(left_hand, second_angle)

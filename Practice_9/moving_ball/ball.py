@@ -9,7 +9,7 @@ class Ball:
         self.screen_width = screen_width
         self.screen_height = screen_height
 
-        self.color = (255, 0, 0)  # red
+        self.color = (0, 0, 255)  # blue
 
     def move(self, dx, dy):
         new_x = self.x + dx
